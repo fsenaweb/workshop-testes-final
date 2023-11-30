@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Lists /> Deleta as palavras ao clicar no botão delete 1`] = `
+<div>
+  <div
+    class="text-body-secondary py-3 my-5 border-top"
+  >
+    <h3
+      class="mb-3 px-3"
+    >
+      Lista de Tarefas
+    </h3>
+    <form
+      class="container mb-4"
+      data-testid="form-add"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-10"
+        >
+          <input
+            class="form-control"
+            data-testid="input"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="col-2 d-grid"
+        >
+          <button
+            class="btn btn-primary btn"
+            disabled=""
+            type="submit"
+          >
+            Salvar
+          </button>
+        </div>
+      </div>
+    </form>
+    <div
+      class="container"
+    >
+      <ul
+        class="list-group"
+        data-testid="ul-itens"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter /> Quando não passar um defaultCount, o texto 'Contagem atual: 0' deve ser renderizado 1`] = `
+<div>
+  <div
+    class="text-body-secondary py-3 my-4 border-top"
+  >
+    <h3
+      class="mb-3 px-3"
+    >
+      Título
+    </h3>
+    <div
+      class="row mx-3 d-flex align-items-center justify-content-evenly "
+    >
+      <div
+        class="col-1 mb-3 px-3"
+      >
+        <label
+          class="form-label"
+        >
+          Incremento:
+          <input
+            class="form-control form-control-sm"
+            data-testid="input"
+            type="text"
+            value="1"
+          />
+        </label>
+      </div>
+      <div
+        class="col-11 d-flex gap-2"
+      >
+        <button
+          aria-label="subtrair número"
+          class="btn btn-primary btn-sm"
+        >
+          -
+        </button>
+        <button
+          aria-label="adicionar número"
+          class="btn btn-primary btn-sm ml-3"
+        >
+          +
+        </button>
+      </div>
+      <h4
+        class="mt-1"
+      >
+         Contagem atual: 
+        0
+      </h4>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> Verificar se o componente Footer é renderizado 1`] = `
+<div>
+  <footer
+    class="text-center text-body-secondary py-3 my-4 border-top"
+  >
+    <div
+      class="text-center text-body-secondary"
+    >
+      <span>
+        © 
+        2023
+         Matheus Ricelly
+      </span>
+      <div>
+        <a
+          class="text-black text-decoration-none"
+          data-testid="link"
+          href="http://fsenaweb.dev/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          fsenaweb.dev
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

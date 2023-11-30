@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading /> Deve rendizar o componente com todos as props 1`] = `
+<div>
+  <div
+    class="px-4 py-2 my-5 text-center"
+  >
+    <img
+      alt="Logo do Evento"
+      class="d-block mx-auto mb-4"
+      height="150"
+      src="https://cdn.britannica.com/77/170477-050-1C747EE3/Laptop-computer.jpg"
+      width="150"
+    />
+    <h1
+      class="display-6 fw-bold text-body-emphasis"
+    >
+      Workshop
+    </h1>
+    <h2
+      class="h3 fw-bold text-body-emphasis mb-4"
+    >
+      Introdução aos testes unitários em aplicações web com React, Jest & testing library
+    </h2>
+    <div
+      class="col-lg-9 mx-auto"
+    >
+      <p
+        class="lead mb-3"
+      >
+        Nesse minicurso vamos praticar a escrita de testes unitários para aplicações front-end
+      </p>
+    </div>
+  </div>
+</div>
+`;
